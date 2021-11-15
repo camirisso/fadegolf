@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tienda Online Nro.1 de ropa deportiva de golf en Argentina. Encontrá todo lo que necesitás para tu juego en un único sito.">
+        <meta name="keywords" content="GOLF, ROPA GOLF, INDUMENTARIA DEPORTIVA, GORRAS GOLF, PRODUCTOS GOLF, ACCESORIOS GOLF">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Fade Golf - Tienda online de ropa deportiva</title>
+    </head>
+    <body>
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar__container">
+                <div class="container-fluid navbar__container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo4.png" alt="" width="90" height="auto" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">   
+                                <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">SHOP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NUESTRA HISTORIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EVENTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">AYUDA</a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header> 
+        <!-- títul0 -->
+        <main class="productos-main">
+            <div class="row productos__titulo">
+                <h1>SHOP.</h1>
+            </div>
+            <!-- submenú -->
+            <div class="row productos__nav">
+                <ul class="nav justify-content-center productos__nav--selector">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ROPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACCESORIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SALE</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="row productos__row" id="productos__row">
+           
+            <!-- carrito de compras -->
+            </div>
+            <div class="container container-table" id="table-cart">
+                <h1>Carrito de compras</h1>
+                <table class="table table-bordered" id="table-cart">
+                    <thead>
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col"></th>
+                        </tr> 
+                    </thead>
+                    <tbody class="tbody-cart"></tbody>
+                    <tfoot>
+                        <tr id="footer-empty-cart">
+                          <th scope="row" colspan="5">Carrito vacío</th>
+                        </tr>
+                      </tfoot>
+                </table> 
+
+            <!-- footer del carrito -->
+                <a href="#" id="empty-cart" class="u-full-width btn btn-primary input empty-cart">Vaciar Carrito</a>
+                <a href="payment.html" class="u-full-width btn btn-primary input shop-cart">Comprar Carrito</a>
+            </div>
+            <div>
+                <a href="#" class="position-relative top-0 start-50 translate-middle-x" id="btn-arrow"><i class="fas fa-arrow-up"></i></a>
+            </div>
+
+            <!-- información empresa -->
+            <div class="row informacion-container">
+                <div class="col-6 col-md-3 informacion__columna">
+                    <h6>EMPRESA.</h6>
+                    <p>FADE GOLF es una marca de ropa deportiva de golf creada y diseñada por jugadores para jugadores.</p>
+                </div>
+                <div class="col-6 col-md-3 informacion__columna">
+                    <ul>
+                        <h6>PRIVACIDAD.</h6>
+                        <li><a href="#">Términos y condiciones.</a></li>
+                        <li><a href="#">Política de Privacidad.</a></li>
+                        <li><a href="#">Preguntas frecuentes.</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 informacion__columna">
+                    <ul>
+                        <h6>AYUDA.</h6>
+                        <li><a href="ayuda.html">Preguntas frecuentes.</a></li>
+                        <li><a href="ayuda.html">Servicio al cliente.</a></li>
+                        <li><a href="ayuda.html">Guía de talles.</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 informacion__columna">
+                    <h6>SEGUINOS.</h6>
+                    <a target="_blank" href="#">
+                        <img src="img/fb.png" alt="Facebook">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="img/tw.png" alt="Twitter">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="img/insta.png" alt="Instagram">
+                    </a>
+                </div>         
+            </div>
+        </main>
+        <!-- footer -->
+        <footer>2021 © CAMILA PILAR RISSO</footer>  
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        <script src="app/libreria.min.js"></script>
+        <script async src="app/app.js"></script>  
+    </body>
+</html>

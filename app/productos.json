@@ -1,0 +1,50 @@
+[
+    {
+        "imagen" : "img/chombas.jpg",
+        "nombre" : "Remera",
+        "alt" : "remeras de hombre estilo chomba",
+        "descripcion": "Chombas clásicas y elegantes para el campo de golf.",
+        "precio": 2500,  
+        "id": 1
+    },
+    {
+        "imagen" : "img/sweaters.jpg",
+        "nombre" : "Sweater",
+        "alt" : "sweater de hombre con cierre frontal",
+        "descripcion": "Sweater con cierre frontal, corte clásico, cómodo y abrigado.",
+        "precio": 3500,
+        "id": 2       
+    },
+    {
+        "imagen" : "img/camperas.jpg",
+        "nombre" : "Campera",
+        "alt" : "campera deportiva de hombre con cierre frontal",
+        "descripcion": "Campera deportiva informal con cierre frontal y cuello acanalado.",
+        "precio": 5500,
+        "id": 3      
+    },
+    { 
+        "imagen" : "img/pantalones.jpg",
+        "nombre" : "Pantalón",
+        "alt" : "pantalon de hombre de algodón",
+        "descripcion": "Pantalón con tela importada, se estira para una movilidad óptima.",
+        "precio": 5500,
+        "id": 4       
+    },
+    {
+        "imagen" : "img/bermudas.jpg",
+        "nombre" : "Bermuda",
+        "alt" : "bermuda de hombre de algodon",
+        "descripcion": "Bermuda con ajuste moderno para libertad de movimiento.",
+        "precio": 3500,
+        "id": 5        
+    },
+    {
+        "imagen" : "img/caps.jpg",
+        "nombre" : "Gorra",
+        "alt" : "gorra unisex de poliéster",
+        "descripcion" : "Gorras unisex con correa ajustable, adaptable a cualquier talla.",
+        "precio": 1500,
+        "id": 6       
+    }
+]
