@@ -118,7 +118,6 @@ for(let i = actualYear; i <= actualYear + 8; i++){
     dataForm.selectYear.appendChild(option);
 };
 
-function payAlert(){
-    swal("Pago acreditado", "Gracias por su compra!", "success");
-}
-$('#btn-send').click(payAlert());
+$('#btn-send').click( 
+      swal("Pago acreditado", "Gracias por su compra!", "success")
+);
