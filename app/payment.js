@@ -11,7 +11,8 @@ const paymentCard = document.querySelector('#tarjeta'),
       cardLogo = document.querySelector('#logo-marca'),
       expirationMonth = document.querySelector('#tarjeta .month'),
       expirationYear = document.querySelector('#tarjeta .year'),
-      cvv = document.querySelector('#tarjeta .code');
+      cvv = document.querySelector('#tarjeta .code'),
+      btnSubmit = document.querySelector('.btn-send');
 
 // LISTENERS
 //Botón apertura del formulario
@@ -19,6 +20,11 @@ btnOpenForm.addEventListener('click', () => {
     btnOpenForm.classList.toggle('active');
     dataForm.classList.toggle('active');
 });
+
+//Botón envío de formulario
+btnSubmit.addEventListener('click', alertPayment);
+
+//FUNCIONAMIENTO           
 
 //Número de tarjeta
 dataForm.inputNumero.addEventListener('keyup', (e) => {
@@ -118,6 +124,9 @@ for(let i = actualYear; i <= actualYear + 8; i++){
     dataForm.selectYear.appendChild(option);
 };
 
-$('#btn-send').click( 
-      swal("Pago acreditado", "Gracias por su compra!", "success")
-);
+//Envío de formulario de pago
+
+function alertPayment(e){
+      e.preventDefault();
+      swal("Pago acreditado", "Gracias por su compra!", "success");
+};
